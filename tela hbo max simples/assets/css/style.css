@@ -1,0 +1,165 @@
+    img {
+        position:absolute;
+        width: 229px;
+        height: 37px;
+        left: 94px;
+        top: 55px;
+    }
+
+    h1 {
+        position: absolute;
+        width: 350px;
+        height: 112px;
+        left: 94px;
+        top: 85px;
+    }
+
+
+    #frase1 {
+        position: absolute;
+        width: 473px;
+        height: 74px;
+        left: 94px;
+        top: 170px;
+        font-size: 25px;
+    }
+
+    #email {
+        position: absolute;
+        width: 379px;
+        height: 74px;
+        left: 94px;
+        top: 237px;
+        font-size: 30px;
+        display: flex;
+    }
+
+    #input-email {
+        position: absolute;
+        width: 566px;
+        height: 53px;
+        left: 94px;
+        top: 296px;
+        font-family: 'Times New Roman';
+        font-size: 33px;
+        box-sizing: border-box;
+        border: 2px solid #000000;
+    }
+
+    #senha {
+        position: absolute;
+        width: 379px;
+        height: 74px;
+        left: 94px;
+        top: 381px;
+        font-size: 30px;
+        display: flex;
+        
+    }
+
+    #input-senha {
+        position: absolute;
+        width: 566px;
+        height: 53px;
+        left: 94px;
+        top: 441px;
+        font-family: 'Times New Roman';
+        font-size: 33px;
+        box-sizing: border-box;
+        border: 2px solid #000000;
+    }
+
+    #botao1 {
+        box-sizing: border-box;
+        position: absolute;
+        width: 214px;
+        height: 54px;
+        left: 97px;
+        top: 530px;
+        background: #EFEFEF;
+        border: 1px solid #000000;
+        border-radius: 5px;
+        font-family: 'Times New Roman';
+        font-size: 33px;
+        cursor: pointer;
+    }
+
+    #frase2 {
+        position: absolute;
+        width: 497px;
+        height: 74px;
+        left: 97px;
+        top: 625px;
+        font-size: 25px;
+    }
+
+    #botao2 {
+        box-sizing: border-box;
+        position: absolute;
+        width: 404.5px;
+        height: 55px;
+        left: 94px;
+        top: 724px;
+        background: #EFEFEF;
+        border: 1px solid #000000;
+        border-radius: 5px;
+        font-family: 'Times New Roman';
+        font-size: 33px;
+        cursor: pointer;
+    }
+
+@media only screen and (max-width: 500px) {
+        body {
+          margin: 0;
+          padding: 0
+        }
+
+        #input-email {
+            position: absolute;
+            width: 380px;
+            height: 53px;
+            left: 94px;
+            top: 296px;
+            font-family: 'Times New Roman';
+            font-size: 33px;
+            box-sizing: border-box;
+            border: 2px solid #000000;
+        }
+
+        #input-senha {
+            position: absolute;
+            width: 380px;
+            height: 53px;
+            left: 94px;
+            top: 441px;
+            font-family: 'Times New Roman';
+            font-size: 33px;
+            box-sizing: border-box;
+            border: 2px solid #000000;
+        }
+
+        #frase2 {
+            position: absolute;
+            width: 387px;
+            height: 74px;
+            left: 97px;
+            top: 625px;
+            font-size: 25px;
+        }
+
+        #botao2 {
+            box-sizing: border-box;
+            position: absolute;
+            width: 304.5px;
+            height: 55px;
+            left: 94px;
+            top: 724px;
+            background: #EFEFEF;
+            border: 1px solid #000000;
+            border-radius: 5px;
+            font-family: 'Times New Roman';
+            font-size: 28px;
+            cursor: pointer;
+        }
+    
+      }
