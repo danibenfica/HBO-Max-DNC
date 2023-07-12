@@ -12,7 +12,9 @@ com muuita ajuda e pesquisa!
 Resolvi aplicar alguns pequenos conceitos a mais que também aprendi nas aulas!
 
 [Link online do projeto aqui! Versão simples](https://tela-hbo-simples.vercel.app/)
+
 [Link online do projeto aqui! Versão intermediária](https://tela-hbo-intermediaria.vercel.app/)
+
 [Link online do projeto aqui! Versão avançada](https://tela-hbo-avancada.vercel.app/)
 
 
