@@ -167,7 +167,7 @@ body {
         }
 
         #entrar {
-            margin-left: 100px;        }
+            margin-left: 150px;        }
 
         #frase1 {
             margin-left: 50px;
@@ -186,7 +186,7 @@ body {
         }
 
         #botao1 {
-            margin-left: 25px;
+            margin-left: 35px;
             font-size: 18px;
         }
 
@@ -200,7 +200,7 @@ body {
         #botao2 {
             width: 200px;
             margin-top: -70px;
-            margin-left: 15px;
+            margin-left: 25px;
             font-size: 18px;
         }
 
