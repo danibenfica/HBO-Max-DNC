@@ -4,150 +4,109 @@
 body {
     background-color: #0F0F0F;
     color: white;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
-    #img-logo {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-left: 580px;
-        margin-top: 20px;
+#img-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
 
-    }
-
-    .menu {
-        width: 169px;
-        height: 74px;
-        font-family: 'Inter';
-        font-weight: 400;
-        font-size: 28px;
-        align-items: center;
-        justify-content: center;
-        margin-left: 600px;
-        margin-top: 10px;
-
-
-    }
-
-    #entrar {
-        width: 169px;
-        height: 74px;
-        font-family: 'Inter';
-        font-weight: 400;
-        font-size: 28px;
-        justify-content: center;
-        align-items: center;
-        margin-left: 600px;
-
-    }
-
+.menu,
+#entrar,
+#frase1,
+form,
+#frase2 {
+    width: 520px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 28px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
     
-    #frase1 {
-        width: 473px;
-        height: 74px;
-        font-family: 'Inter';
-        font-weight: 400;
-        font-size: 28px;
-        justify-content: center;
-        align-items: center;
-        margin-left: 480px;
+}
 
-    }
+#frase1 {
+    padding-bottom: 60px;
+}
+
+form {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+form input {
+    width: 520px;
+    height: 40px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 28px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #7f7f7f;
+    border-radius: 25px;
+    margin: 10px;
+}
+
+#botao1 {
+    width: 214px;
+    height: 55px;
+    background: #8C77E0;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+    border-radius: 25px;
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 30px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+#frase2 {
+    text-align: center;
+    margin-top: 60px;
+}
 
 
-    form {
-        width: 473px;
-        height: 74px;
-        font-family: 'Inter';
-        font-weight: 400;
-        font-size: 28px;
-        display: flex;
-        flex-direction: column;
-        margin-left: 430px;
+#botao2 {
+    position: absolute;
+    width: 360px;
+    height: 55px;
+    top: 820px;
+    background: #8C77E0;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+    border-radius: 25px;
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 30px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
-    }
-
-    #config-email {
-        margin-bottom: 10px;
-    }
-
-    #config-senha {
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-
-
-    form input {
-        width: 520px;
-        height: 74px;
-        left: 110px;
-        font-family: 'Inter';
-        font-weight: 400;
-        font-size: 28px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        background-color: #7f7f7f;
-        border-radius: 25px;
-    }
-
-    #botao1 {
-        width: 214px;
-        height: 55px;
-        background: #8C77E0;
-        border: 1px solid #000000;
-        box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
-        border-radius: 25px;
-        color: white;
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 450;
-        font-size: 30px;
-        cursor: pointer;
-        justify-content: center;
-        align-items: center;
-        margin-left: 150px;
-        margin-top: 20px;
-    }
-
-    #frase2 {
-        width: 520px;
-        height: 74px;        
-        font-family: 'Inter';
-        font-weight: 400;
-        font-size: 28px;
-        display: flex;
-        text-align: center;
-        align-items: center;
-        margin-left: 430px;
-        margin-top: 200px;
-
-    }
-
-    #botao2 {
-        position: absolute;
-        width: 360px;
-        height: 55px;
-        top: 700px;
-        background: #8C77E0;
-        border: 1px solid #000000;
-        box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
-        border-radius: 25px;
-        color: white;
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 450;
-        font-size: 30px;
-        cursor: pointer;
-        justify-content: center;
-        align-items: center;
-        margin-left: 75px;
-    
-    }
 
 
     @media only screen and (min-width: 320px) and (max-width: 480px) {
