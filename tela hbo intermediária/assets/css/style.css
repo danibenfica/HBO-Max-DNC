@@ -1,4 +1,4 @@
- @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;600&display=swap');
 
 
 body {
@@ -150,7 +150,7 @@ body {
     }
 
 
-@media only screen and (max-width: 480px) {
+    @media only screen and (min-width: 320px) and (max-width: 480px) {
         
         body {
             margin:0;
@@ -159,137 +159,49 @@ body {
         }
 
         #img-logo {
-            position: absolute;
-            width: 115px;
-            height: 19px;
-            left: 144px;
-            top: 25px;
+            margin-left: 70px;
     
         }
         .menu {
-            position: absolute;
-            width: 169px;
-            height: 74px;
-            left: 110px;
-            top: 57px;
-            font-family: 'Inter';
-            font-weight: 400;
-            font-size: 28px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-    
+            margin-left: 70px;
         }
 
         #entrar {
-            position: absolute;
-            width: 169px;
-            height: 74px;
-            left: 120px;
-            top: 107px;
-            font-family: 'Inter';
-            font-weight: 400;
-            font-size: 28px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-        }
+            margin-left: 70px;        }
 
         #frase1 {
-            position: absolute;
-            width: 473px;
-            height: 74px;
-            left: 30px;
-            top: 207px;
-            font-family: 'Inter';
-            font-weight: 400;
-            font-size: 28px;
-            display: flex;
-            align-items: center;
-            text-align: center;
+            margin-left: 30px;
+            font-size: 18px;
+            width: 280px;
         }
 
         form {
-            position: absolute;
-            width: 473px;
-            height: 74px;
-            left: 30px;
-            top: 307px;
-            font-family: 'Inter';
-            font-weight: 400;
-            font-size: 28px;
-            display: flex;
-            flex-direction: column;
-    
+            margin-left: 30px;
+            font-size: 20px;
+            width: 280px;
         }
 
         form input {
-            width: 420px;
-            height: 74px;
-            left: 110px;
-            top: 307px;
-            font-family: 'Inter';
-            font-weight: 400;
-            font-size: 28px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            background-color: #7f7f7f;
-            border-radius: 25px;
+            width: 250px;
         }
 
         #botao1 {
-            box-sizing: border-box;
-            position: absolute;
-            width: 214px;
-            height: 55px;
-            left: 90px;
-            top: 207px;
-            background: #8C77E0;
-            border: 1px solid #000000;
-            box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
-            border-radius: 25px;
-            color: white;
-            font-family: 'Inter';
-            font-style: normal;
-            font-weight: 450;
-            font-size: 30px;
-            cursor: pointer;
+            margin-left: 15px;
+            font-size: 18px;
         }
 
         #frase2 {
-            position: absolute;
-            width: 420px;
-            height: 74px;
-            left: 20px;
-            top: 607px;
-            font-family: 'Inter';
-            font-weight: 400;
-            font-size: 28px;
-            display: flex;
-            text-align: center;
+            margin-left: 50px;
+            font-size: 18px;
+            width: 200px;
+            margin-top: 150px;
         }
 
         #botao2 {
-            box-sizing: border-box;
-            position: absolute;
-            width: 360px;
-            height: 55px;
-            left: 30px;
-            top: 107px;
-            background: #8C77E0;
-            border: 1px solid #000000;
-            box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
-            border-radius: 25px;
-            color: white;
-            font-family: 'Inter';
-            font-style: normal;
-            font-weight: 450;
-            font-size: 30px;
-            cursor: pointer;
-            margin-top: 30px;
+            width: 200px;
+            margin-top: -70px;
+            margin-left: 0px;
+            font-size: 18px;
         }
 
     }
